@@ -632,12 +632,17 @@ a {
 }
 
 .footer .social-link {
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 28px;
     height: 28px;
-    /* background-color: orange; */
     border-radius: 3px;
+    background: #F9F9F9;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
 }
 
 .footer .social-link:hover {
